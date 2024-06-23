@@ -16,9 +16,13 @@ def folderCheck(folderPath):
 #Function that checks for a yes or no input
 def yes_no_input():
     while True:
-        userInput = input().upper()
+        userInput = input()
+        userInput = userInput.upper()
         if userInput in ['YES', "Y", "1", "NO", "N", "0"]:
-            return userInput
+            if userInput in ['YES', "Y", "1",]:
+                return True
+            else:
+                return False
         else:
             print("Invalid input. Please enter yes or no: ")
 
