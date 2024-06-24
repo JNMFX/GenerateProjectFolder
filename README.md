@@ -6,3 +6,9 @@ Please note: `GenerateProjectFolderGUI.py` is only a prototype with limited func
 ## Installation
 
 Just put `GenerateProjectFolder.py` into the folder location you want to generate the project folder. Simply run the script and follow the prompts.
+
+## Roadmap
+
+- Complete rewrite of `GenerateProjectFolderGUI.py`
+
+- Convert to .exe
